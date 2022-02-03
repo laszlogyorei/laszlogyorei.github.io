@@ -1,0 +1,71 @@
+#intro{
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  width: 1200px;
+  margin-top: -10px
+}
+
+#anakinimg{
+  width: 1200px;
+}
+
+#firstlines{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-family: 'Abril Fatface';
+  font-size:70px;
+  color: #202020;
+  width: 800px;
+  line-height: 1
+}
+
+#firstlines::first-line{
+  font-size: 35px
+}
+
+.elsoblokk{
+  width: 800px;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans';
+  font-size: 22px;
+  color: #222222
+}
+
+.kiemelt{
+   width: 800px;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  background:#222222;
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  padding-top:40px;
+  padding-bottom: 40px;
+  position: relative
+  }
+
+.kiemelt::before{
+  content: '"';
+  position: absolute;
+  top:-25px;
+  left: 0px;
+  font-size: 100px;  
+}
+
+.elsoblokk h2{
+  text-transform: uppercase
+}
+
+.elsoblokk h3{
+  margin-bottom: -15px
+}
+
+#alsoszegely{
+  border-bottom: solid 5px black;
+  
+}
